@@ -14,6 +14,14 @@ pnpm dev
 bun dev
 ```
 
+The Project backend is based two different databases which are MongoDB anf Firebase,
+The Integration of both is still buggy therefore the session contents have not been saved in the firebase though
+the jwt authentication works well, The both backend databases will definitely be integrated together in future
+although the code base is 100% done, some of the backend logic which is throwing currently unresolved erros are commented out but in csae the viewer wanna uncomment to check the backEnd logic on his own, All the routes all present app folder whose names starting without  "(, _ , [". 
+Use of express and redux have been omitted due to errors and unfamilarity with the Next technology integration, useState() and UseEffect() hook have been widely used, axios and Next Middleware have been used instead of express.js.
+For styling Tailwind Css with its ShadCN library is used widely.
+The project is still under minor development and not deployed on vercel due due bugy Backend.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
